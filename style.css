@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #542121;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    padding: 0 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight:bolder;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.6s;
+}
+
+.menu li a:hover {
+    color: #e0982c;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 100px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+}
+/* Reset some default styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #de8d70;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.note-form {
+    margin-bottom: 2rem;
+}
+
+#note-content {
+    width: 100%;
+    height: 150px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+#save-button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.note-list {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+}
+
+#notes-list {
+    list-style: none;
+}
+
+.note-item {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    p
+    adding: 1rem;
+}
+
